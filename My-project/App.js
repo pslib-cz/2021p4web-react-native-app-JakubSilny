@@ -10,7 +10,7 @@ export default function App() {
   const showAlert = () =>
     Alert.alert(
       "No vyber něco",
-      "Přidej fajl",
+      "Přidej file",
       [
         {
           text: "No",
