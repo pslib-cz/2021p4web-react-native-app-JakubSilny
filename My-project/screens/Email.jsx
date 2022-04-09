@@ -19,7 +19,7 @@ export const Email = props => {
   const simpleAlertHandler = () => {
     //function to make simple alert
     alert('Choose something');
-  };
+  };  
   const showAlert = () =>
     Alert.alert(
 
@@ -33,7 +33,7 @@ export const Email = props => {
           style: "cancel"
         },
         { text: "Yes", onPress: sendEmailWithAttachment }
-      ]
+      ] 
 
     );
   console.log(value)
