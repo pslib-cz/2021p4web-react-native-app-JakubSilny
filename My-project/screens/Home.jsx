@@ -4,8 +4,8 @@ import SafeAreaView from 'react-native-safe-area-view';
 
 export const Home = props => {
     return (
-        <SafeAreaView style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Text>Vyber si!</Text>
+        <SafeAreaView style={{padding: 16, flex: 1,  alignItems: 'center'  }}>
+            <Text>Tato aplikace je vytvořena pro zasílání hromadných emailů a SMS </Text>
         </SafeAreaView>
     );
 }

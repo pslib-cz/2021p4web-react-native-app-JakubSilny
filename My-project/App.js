@@ -41,8 +41,8 @@ export default function App() {
             tabBarInactiveTintColor: 'gray',
           })}
         >
-          <Tab.Screen name={SCREEN_mail} component={Email} options={{ title: 'Mail', headerStyle: { backgroundColor: '#F06345' } }} />
-          <Tab.Screen name={SCREEN_HOME} component={Home} options={{ title: 'Home', headerStyle: { backgroundColor: '#F06342' } }} />
+          <Tab.Screen name={SCREEN_mail} component={Email} options={{ title: 'Mail', headerStyle: {backgroundColor: '#F06345' } }} />
+          <Tab.Screen name={SCREEN_HOME} component={Home} options={{ title: 'Home', headerStyle: {backgroundColor: '#F06342' } }} />
           <Tab.Screen name={SCREEN_SMS} component={Sender} options={{ title: 'SMS', headerStyle: { backgroundColor: '#F06342' } }} />
         </Tab.Navigator>
       </NavigationContainer>

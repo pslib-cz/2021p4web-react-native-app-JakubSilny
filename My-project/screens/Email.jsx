@@ -6,14 +6,12 @@ import * as MailComposer from 'expo-mail-composer';
 
 export const Email = props => {
   const [status, setStatus] = useState(null)
-  var P4 = ["filmarg018@pslib.cz", "jaksiln018@pslib.cz", "vojdejn@pslib.cz", "petmike018@pslib.cz", "jansmutn@pslib.cz"]
   const [open, setOpen] = useState(false);
   const [value, setValue] = useState(null);
   const [items, setItems] = useState([
-    { label: 'P4', value: ["filmarg018@pslib.cz", "jaksiln018@pslib.cz", "vojdejn@pslib.cz", "petmike018@pslib.cz", "jansmutn@pslib.cz"] },
+    { label: 'P4', value: ["filmarg018@pslib.cz", "jaksiln018@pslib.cz", "vojdejn@pslib.cz", "petmike018@pslib.cz", "jansmutn@pslib.cz", "matejjanko13@gmail.com"] },
     { label: 'P3', value: ["filmarg018@pslib.cz", "jaksiln018@pslib.cz", "vojdejn@pslib.cz"] },
     { label: 'P2', value: ["vojdejn@pslib.cz", "petmike018@pslib.cz", "jansmutn@pslib.cz"] },
-    { label: 'P1', value: [] },
 
   ]);
   const simpleAlertHandler = () => {
